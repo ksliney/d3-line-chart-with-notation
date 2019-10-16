@@ -48,7 +48,7 @@ function ready(datapoints) {
   svg
     .append('path')
     .datum(datapoints)
-    .attr('stroke', 'blue')
+    .attr('stroke', '#1da1f3')
     .attr('stroke-width', 2)
     .attr('d', line)
     .attr('fill', 'none')
@@ -58,7 +58,7 @@ function ready(datapoints) {
     .data(datapoints)
     .enter()
     .append('circle')
-    .attr('fill', 'red')
+    .attr('fill', '#1da1f3')
     .attr('r', 3)
     .attr('cx', d => {
       return xPositionScale(d.day)
