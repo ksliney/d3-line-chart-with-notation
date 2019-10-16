@@ -48,7 +48,7 @@ function ready(datapoints) {
   svg
     .append('path')
     .datum(datapoints)
-    .attr('stroke', 'salmon')
+    .attr('stroke', 'blue')
     .attr('stroke-width', 2)
     .attr('d', line)
     .attr('fill', 'none')
@@ -58,7 +58,7 @@ function ready(datapoints) {
     .data(datapoints)
     .enter()
     .append('circle')
-    .attr('fill', 'salmon')
+    .attr('fill', 'red')
     .attr('r', 3)
     .attr('cx', d => {
       return xPositionScale(d.day)
@@ -88,7 +88,7 @@ function ready(datapoints) {
 
   var marker = svg.append('circle')
     .attr('r', 5)
-    .attr('stroke', 'black')
+    .attr('stroke', 'red)
     .attr('fill', 'none')
     .style('display', 'none')
 
@@ -107,7 +107,7 @@ function ready(datapoints) {
   svg.append('rect')
     .attr('width', width)
     .attr('height', height)
-    .attr('fill', 'green')
+    .attr('fill', 'grey')
     .attr('opacity', 0.1)
     .on('mousemove', function() {
       console.log("the mouse is moving")
