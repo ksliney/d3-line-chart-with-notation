@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+      svg { 
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h3 { 
+        margin-top: 3rem; 
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        max-width: 46rem;
+      }
+
+      img.block {
+        display: block;
+        border: solid #333 1p;
+        margin: 0 auto;
+      }
+
+      .axis line, .axis path {
+        stroke-width: 0.5;
+        stroke: #999;
+      }
+    </style>
+  </head>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Lines, Paths, Continuous Integration</h1>
+
+      <p>Reminder: run <code>npm start</code> or <code>npm run start</code> to start up Parcel.</p>
+      <p>If Parcel doesn't work initially, use <code>npm install -g parcel</code> to install Parcel globally.</p>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-12">
+      <h3>Chart 1: A single line</h3>
+      <p>This one simply draws one line.</p>
+      <div id="chart-1">
+      </div>
+    </div>
+  </div>
+
+  <!-- Now we include our actual visualization -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+  <script src="chart-1.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.babelrc: Converts cool new js into old bad js
+
+  Turns
+    (d) =>  
+  into
+    function(d) { }
+
+.cache: Just for parcel
+
+.eslintrc: Settings for eslint
+  * linting -> standardize your code
+  * ALWAYS use ;
+  * NEVER use ;
+  * 4 spaces vs 2 spaces vs tabs
+
+
+At top of js file:
+  
+    (function() {
+
+At bottom of JS file:
+
+    })()
+
+
+
+
+
+CORS
+CROSS
+ORIGIN - domain
+RESOURCE
+SHARING
+
+cross origin - different domains
+resource - file
+
+
+d3.csv("http://facebook.com/my-passwords.csv")
+
+no
+
+
+
+
