@@ -88,7 +88,7 @@ function ready(datapoints) {
 
   var marker = svg.append('circle')
     .attr('r', 5)
-    .attr('stroke', 'red)
+    .attr('stroke', 'red')
     .attr('fill', 'none')
     .style('display', 'none')
 
